@@ -1,14 +1,23 @@
+---
+name: User Story
+about: Template for creating user stories
+title: "1-5 Word Description of Feature"
+labels: user story
+assignees: ''
+
+---
 # User Story
-As a **USER**
-I want to **delete rounds I no longer need**
-so that **I can keep my rounds log up to date.**
+As a **[role]**
+I want to **[functionality]**
+so that **[user value]**
 
 # Summary
-From the "Rounds" table in "Rounds" mode, users can click on the garbage can ("delete") button in a row to delete the corresponding round. A dialog should appear to require the user to confirm the deletion before completing the operation. When a round is deleted, it no longer appears in the "Rounds" table and it is removed from `localStorage`.
+[Write a brief description of the feature and how it fits in to the broader app]
 
 # Acceptance Criteria
-- [ ] When the user clicks on the garbage can icon in a round row, a "Confirm Round Deletion" dialog box appears.
-- [ ] The "Confirm Round Deletion" dialog box asks the user: "Do you really want to delete that round?"
-- [ ] The "Confirm Round Deletion" dialog box has two choice buttons: "No, Cancel" (the default), and "Yes, Delete Round"
-- [ ] Clicking on the "No, Cancel" button dismisses the dialog box without performing further action
-- [ ] Clicking on the "Yes, Delete Round" button dismisses the dialog box and deletes the round from the table and from `localStorage`
+- [ ] Criterion 1
+- [ ] Criterion 2
+- [ ] Criterion 3
+
+# Additional Context
+[Add any other context or screenshots about the feature request here.]
